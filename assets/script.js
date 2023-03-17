@@ -23,7 +23,7 @@ function updateClock() {
     secondsEl.innerText = seconds;
     amPmEl.innerText = amPm;
 
-    setTimeout(() => {
+    setTimeout(() => {cd
         updateClock();
     }, 1000)
 }
